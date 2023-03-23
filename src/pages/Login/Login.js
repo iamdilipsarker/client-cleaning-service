@@ -21,7 +21,7 @@ const Login = () => {
               <span className="label-text">Password</span>
             </label>
             <input
-              type="text"
+              type="password"
               placeholder="password"
               className="input input-bordered"
             />
@@ -34,6 +34,8 @@ const Login = () => {
           <div className="form-control mt-6">
             <button className="btn btn-primary">Login</button>
           </div>
+          <div className="divider">OR</div>
+          <button className="btn btn-outline">Continue with Google</button>
         </div>
       </div>
     </div>
